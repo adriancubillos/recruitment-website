@@ -9,11 +9,12 @@ function Navigation() {
                     <span>Recruiting Without Limits</span>
                 </div>
                 <div className="nav-links">
-                    <a href="#about">About</a>
-                    <a href="#community">Community</a>
-                    <a href="#platform">Platform</a>
-                    <a href="#contact">Contact</a>
-                </div>
+          <a href="#top">Home</a>
+          <a href="#about">About</a>
+          <a href="#community">Community</a>
+          <a href="#platform">Platform</a>
+          <a href="#contact">Contact</a>
+        </div>
             </div>
         </nav>
     )
