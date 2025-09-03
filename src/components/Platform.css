@@ -1,0 +1,81 @@
+.platform {
+    background-color: #ffffff;
+    padding: 4rem 0;
+}
+
+.platform-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 2rem;
+}
+
+.platform h2 {
+    font-size: 2.5rem;
+    font-weight: 300;
+    color: #333333;
+    text-align: center;
+    margin-bottom: 3rem;
+    letter-spacing: -0.02em;
+}
+
+.platform-intro {
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+.platform-intro p {
+    font-size: 1.25rem;
+    line-height: 1.7;
+    color: #555555;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.platform-features {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 2rem;
+}
+
+.platform-features .feature {
+    background-color: #fafafa;
+    padding: 2rem;
+    border-radius: 8px;
+    border: 1px solid #f0f0f0;
+}
+
+.platform-features .feature h3 {
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: #333333;
+    margin-bottom: 1rem;
+}
+
+.platform-features .feature p {
+    font-size: 1rem;
+    line-height: 1.6;
+    color: #666666;
+}
+
+@media (max-width: 768px) {
+    .platform {
+        padding: 3rem 0;
+    }
+
+    .platform-container {
+        padding: 0 1rem;
+    }
+
+    .platform h2 {
+        font-size: 2rem;
+    }
+
+    .platform-features {
+        grid-template-columns: 1fr;
+        gap: 1.5rem;
+    }
+
+    .platform-features .feature {
+        padding: 1.5rem;
+    }
+}
