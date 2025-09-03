@@ -26,7 +26,16 @@ function Contact() {
                         <div className="contact-method">
                             <h3>Get in Touch</h3>
                             <p>Questions about our platform or services?</p>
-                            <button className="cta-button">Contact Us</button>
+                            <span className="email-address">adriancubcru@gmail.com</span>
+                            <p><span className="phone-number">+1 (626)888-2374</span></p>
+                            <a
+                                href="https://portfolio-snowy-seven-70.vercel.app/"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                className="cta-button"
+                            >
+                                View Portfolio
+                            </a>
                         </div>
                     </div>
                 </div>

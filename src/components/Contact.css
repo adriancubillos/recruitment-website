@@ -60,6 +60,15 @@
     margin-bottom: 1.5rem;
 }
 
+.email-address,
+.phone-number {
+    font-size: 1rem;
+    font-weight: 600;
+    color: #333333;
+    margin-bottom: 1rem;
+    font-family: monospace;
+}
+
 .cta-button {
     background-color: #333333;
     color: #ffffff;
@@ -70,6 +79,8 @@
     border-radius: 4px;
     cursor: pointer;
     transition: background-color 0.2s ease;
+    text-decoration: none;
+    display: inline-block;
 }
 
 .cta-button:hover {
