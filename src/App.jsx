@@ -5,14 +5,15 @@ import Navigation from './components/Navigation'
 import About from './components/About'
 import Community from './components/Community'
 import Platform from './components/Platform'
-
 import Contact from './components/Contact'
 import Footer from './components/Footer'
+import SmoothScroll from './components/SmoothScroll'
 import './App.css'
 
 function App() {
   return (
     <div className="App" id="top">
+      <SmoothScroll />
       <Navigation />
       <Header />
       <Hero />
