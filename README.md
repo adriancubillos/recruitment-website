@@ -5,7 +5,10 @@ A minimalist recruitment platform website built with Vite + React, featuring cle
 ## Features
 
 - **Clean, minimalist design** inspired by Jony Ive's design principles
-- **Responsive layout** that works on all devices
+- **Fully responsive layout** that works on all devices
+- **Mobile-first navigation** with animated hamburger menu
+- **Smooth scrolling navigation** with anchor links
+- **Dark/light theme toggle** for user preference
 - **Future-ready architecture** with mockup concepts for community and AI features
 - **Fast development** with Vite hot module replacement
 
@@ -18,9 +21,10 @@ A minimalist recruitment platform website built with Vite + React, featuring cle
 
 ### Installation
 
-1. Navigate to the project directory:
+1. Clone the repository:
 ```bash
-cd /home/adrian/CascadeProjects/recruitment-website
+git clone https://github.com/yourusername/recruitment-website.git
+cd recruitment-website
 ```
 
 2. Install dependencies:
@@ -47,10 +51,18 @@ npm run dev
 ```
 src/
 ├── components/
-│   ├── Navigation.jsx & .css
-│   ├── Header.jsx & .css
-│   ├── Hero.jsx & .css
-│   └── Footer.jsx & .css
+│   ├── Navigation.jsx & .css    # Responsive nav with mobile hamburger menu
+│   ├── Header.jsx & .css        # Main header section
+│   ├── Hero.jsx & .css          # Hero banner
+│   ├── About.jsx & .css         # About section
+│   ├── Community.jsx & .css     # Community features mockup
+│   ├── Platform.jsx & .css      # AI platform features mockup
+│   ├── Contact.jsx & .css       # Contact form
+│   ├── Footer.jsx & .css        # Site footer
+│   ├── ThemeToggle.jsx & .css   # Dark/light theme switcher
+│   └── SmoothScroll.jsx         # Smooth scrolling behavior
+├── contexts/
+│   └── ThemeContext.jsx         # Theme state management
 ├── App.jsx & .css
 ├── main.jsx
 └── index.css
@@ -63,6 +75,17 @@ src/
 - **Minimal color palette** focusing on typography
 - **Generous whitespace** for clean visual hierarchy
 - **Responsive grid system** for feature cards
+- **Mobile-first approach** with progressive enhancement
+
+## Mobile Navigation
+
+The website features a fully responsive navigation system:
+
+- **Desktop**: Horizontal navigation bar with theme toggle
+- **Mobile (≤768px)**: Collapsible hamburger menu with smooth animations
+- **Accessibility**: Proper ARIA labels and keyboard navigation support
+- **Auto-close**: Menu automatically closes when navigation links are clicked
+- **Smooth transitions**: Animated hamburger icon transforms to X when opened
 
 ## Future Integration Concepts
 
