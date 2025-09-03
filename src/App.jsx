@@ -8,21 +8,24 @@ import Platform from './components/Platform'
 import Contact from './components/Contact'
 import Footer from './components/Footer'
 import SmoothScroll from './components/SmoothScroll'
+import { ThemeProvider } from './contexts/ThemeContext'
 import './App.css'
 
 function App() {
   return (
-    <div className="App" id="top">
-      <SmoothScroll />
-      <Navigation />
-      <Header />
-      <Hero />
-      <About />
-      <Community />
-      <Platform />
-      <Contact />
-      <Footer />
-    </div>
+    <ThemeProvider>
+      <div className="App" id="top">
+        <SmoothScroll />
+        <Navigation />
+        <Header />
+        <Hero />
+        <About />
+        <Community />
+        <Platform />
+        <Contact />
+        <Footer />
+      </div>
+    </ThemeProvider>
   )
 }
 

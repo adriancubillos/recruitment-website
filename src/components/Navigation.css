@@ -1,10 +1,11 @@
 .navigation {
-  background-color: #ffffff;
-  border-bottom: 2px solid #e0e0e0;
+  background-color: var(--bg-primary);
+  border-bottom: 2px solid var(--border-color);
   position: sticky;
   top: 0;
   z-index: 100;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+  box-shadow: 0 2px 8px var(--shadow);
+  transition: all 0.3s ease;
 }
 
 .nav-container {
@@ -19,8 +20,14 @@
 .nav-logo span {
   font-size: 1.5rem;
   font-weight: 700;
-  color: #333333;
+  color: var(--text-primary);
   letter-spacing: -0.01em;
+}
+
+.nav-right {
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
 }
 
 .nav-links {
@@ -31,15 +38,15 @@
 .nav-links a {
   font-size: 1rem;
   font-weight: 500;
-  color: #555555;
+  color: var(--text-secondary);
   padding: 0.5rem 1rem;
   border-radius: 4px;
   transition: all 0.2s ease;
 }
 
 .nav-links a:hover {
-  color: #333333;
-  background-color: #f8f8f8;
+  color: var(--text-primary);
+  background-color: var(--bg-tertiary);
   opacity: 1;
 }
 
