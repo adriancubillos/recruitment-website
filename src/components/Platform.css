@@ -1,6 +1,7 @@
 .platform {
     background-color: #ffffff;
-    padding: 4rem 0;
+    padding: 6rem 0;
+    margin: 2rem 0;
 }
 
 .platform-container {
@@ -59,7 +60,8 @@
 
 @media (max-width: 768px) {
     .platform {
-        padding: 3rem 0;
+        padding: 4rem 0;
+        margin: 1rem 0;
     }
 
     .platform-container {

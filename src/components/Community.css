@@ -1,6 +1,7 @@
 .community {
     background-color: #fafafa;
-    padding: 4rem 0;
+    padding: 6rem 0;
+    margin: 2rem 0;
 }
 
 .community-container {
@@ -59,7 +60,8 @@
 
 @media (max-width: 768px) {
     .community {
-        padding: 3rem 0;
+        padding: 4rem 0;
+        margin: 1rem 0;
     }
 
     .community-container {
